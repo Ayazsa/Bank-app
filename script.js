@@ -295,6 +295,7 @@ btnClose.addEventListener('click', function (e) {
     // Deleting account
     accounts.splice(index, 1);
     //Hiding UI
+    labelWelcome.textContent = labelWelcome;
     containerApp.style.opacity = 0;
     inputCloseUsername.value = inputClosePin.value = '';
   }
