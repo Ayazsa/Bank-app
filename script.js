@@ -295,7 +295,7 @@ btnClose.addEventListener('click', function (e) {
     // Deleting account
     accounts.splice(index, 1);
     //Hiding UI
-    labelWelcome.textContent = labelWelcome;
+    labelWelcome.textContent = 'Log in to get started';
     containerApp.style.opacity = 0;
     inputCloseUsername.value = inputClosePin.value = '';
   }
